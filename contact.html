@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en-AU">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | Pretty Little Secrets</title>
+    <meta
+      name="description"
+      content="Request a quote for a custom pretty diary or digital journal. Call 0435 729 476 or email loechelkatelyn0@gmail.com — available 24/7."
+    />
+    <link rel="icon" href="./images/logo.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a href="./" aria-label="Pretty Little Secrets home">
+          <img class="brand-logo" src="./images/logo.svg" alt="Pretty Little Secrets" width="220" height="70" />
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="nav" id="site-nav" aria-label="Primary">
+          <a href="./">Home</a>
+          <a href="./services.html">Services</a>
+          <a href="./contact.html" aria-current="page">Contact Us</a>
+        </nav>
+        <a class="header-phone" href="tel:0435729476">0435 729 476</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <p class="eyebrow">say hello</p>
+          <h1>Request a quote ♡</h1>
+          <p>
+            Tell me about the diary you’re imagining — custom work, soft aesthetic, Australia-wide and open around the
+            clock.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container contact-grid">
+          <aside class="contact-card reveal">
+            <h2>Find me here</h2>
+            <div class="contact-rows">
+              <div>
+                <strong>Phone</strong>
+                <a href="tel:0435729476">0435 729 476</a>
+              </div>
+              <div>
+                <strong>Email</strong>
+                <a href="mailto:loechelkatelyn0@gmail.com">loechelkatelyn0@gmail.com</a>
+              </div>
+              <div>
+                <strong>Hours</strong>
+                <span>24/7 including emergencies</span>
+              </div>
+              <div>
+                <strong>Area</strong>
+                <span>Online · Australia-wide</span>
+              </div>
+            </div>
+          </aside>
+
+          <div class="reveal">
+            <h2 class="section-title" style="margin-bottom: 1rem">Write me a note</h2>
+            <form class="form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+              <input type="hidden" name="form-name" value="contact" />
+              <p class="sr-only">
+                <label>Don’t fill this out: <input name="bot-field" /></label>
+              </p>
+
+              <div class="form-row two">
+                <div class="field">
+                  <label for="name">Name</label>
+                  <input id="name" name="name" type="text" autocomplete="name" required />
+                </div>
+                <div class="field">
+                  <label for="phone">Phone</label>
+                  <input id="phone" name="phone" type="tel" autocomplete="tel" required />
+                </div>
+              </div>
+
+              <div class="form-row two">
+                <div class="field">
+                  <label for="email">Email</label>
+                  <input id="email" name="email" type="email" autocomplete="email" required />
+                </div>
+                <div class="field">
+                  <label for="interest">I’m interested in</label>
+                  <select id="interest" name="interest">
+                    <option value="Custom diary space">Custom diary space</option>
+                    <option value="Memories & life updates">Memories &amp; life updates</option>
+                    <option value="Thoughts & friendships">Thoughts &amp; friendships</option>
+                    <option value="General quote">General quote</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="field">
+                <label for="message">Your message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Describe the vibe, colours, or pages you want…"
+                  required
+                ></textarea>
+              </div>
+
+              <p class="form-note">Or call <a href="tel:0435729476">0435 729 476</a> anytime.</p>
+              <button class="btn btn-primary" type="submit">Send quote request</button>
+              <p class="form-status" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <img class="footer-logo" src="./images/logo.svg" alt="Pretty Little Secrets" width="240" height="75" />
+          <p>Personal blogging &amp; digital journaling — a soft diary for Dear, Nobody moments.</p>
+        </div>
+        <div>
+          <h3>Pages</h3>
+          <div class="footer-links">
+            <a href="./">Home</a>
+            <a href="./services.html">Services</a>
+            <a href="./contact.html">Contact Us</a>
+          </div>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <div class="footer-contact">
+            <a href="tel:0435729476">0435 729 476</a>
+            <a href="mailto:loechelkatelyn0@gmail.com">loechelkatelyn0@gmail.com</a>
+            <span>24/7 · Australia-wide</span>
+          </div>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© <span data-year></span> Pretty Little Secrets</span>
+        <span>with love ♡</span>
+      </div>
+    </footer>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

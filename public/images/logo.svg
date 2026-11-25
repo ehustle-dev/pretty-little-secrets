@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 160" role="img" aria-label="Pretty Little Secrets">
+  <defs>
+    <linearGradient id="bow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F7DDE7"/>
+      <stop offset="100%" stop-color="#B8A2C8"/>
+    </linearGradient>
+  </defs>
+  <!-- soft wings -->
+  <path d="M70 78c-28-22-48-18-54-8 18 4 28 18 32 34 14-8 22-18 22-26z" fill="#B8A2C8" opacity=".45"/>
+  <path d="M450 78c28-22 48-18 54-8-18 4-28 18-32 34-14-8-22-18-22-26z" fill="#B8A2C8" opacity=".45"/>
+  <!-- bow -->
+  <g transform="translate(260 36)">
+    <ellipse cx="-22" cy="0" rx="22" ry="14" fill="url(#bow)"/>
+    <ellipse cx="22" cy="0" rx="22" ry="14" fill="url(#bow)"/>
+    <circle cx="0" cy="0" r="8" fill="#796575"/>
+    <path d="M-6 6c-4 10-10 16-14 18M6 6c4 10 10 16 14 18" stroke="#B8A2C8" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- heart accent -->
+  <path d="M120 118c0-8 6-14 12-14 4 0 8 2 10 6 2-4 6-6 10-6 6 0 12 6 12 14 0 12-22 24-22 24s-22-12-22-24z" fill="#F7DDE7" stroke="#B8A2C8" stroke-width="1.5"/>
+  <path d="M366 118c0-8 6-14 12-14 4 0 8 2 10 6 2-4 6-6 10-6 6 0 12 6 12 14 0 12-22 24-22 24s-22-12-22-24z" fill="#F7DDE7" stroke="#B8A2C8" stroke-width="1.5"/>
+  <text x="260" y="108" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#796575" letter-spacing="1">pretty little secrets</text>
+  <text x="260" y="136" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#B8A2C8" letter-spacing="4">DEAR, NOBODY</text>
+</svg>
